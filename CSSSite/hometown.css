@@ -1,0 +1,30 @@
+.hyderabad-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hyderabad-list li {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(25% - 20px); /* Adjust width as needed */
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.hyderabad-list li:last-child {
+    margin-right: 0;
+}
+
+.hyderabad-list h3 {
+    margin-top: 10px;
+}
+
+.hyderabad-list p {
+    margin-bottom: 20px;
+}
+
+.hyderabad-list img {
+    display: block;
+    border-radius: 5px;
+}
